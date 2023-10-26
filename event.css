@@ -87,10 +87,10 @@ img{
   footer p{
     float: right;
     font-family: 'Lora', serif;
+    padding-right: 20px;
   }
   .footernav{
     height: 10px;
-
     float: left;
   }
   .footernav ul li{
