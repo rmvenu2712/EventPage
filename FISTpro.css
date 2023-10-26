@@ -1,0 +1,109 @@
+img{
+    width: 420px;
+    height: 340px;
+  }
+  
+  header{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    border: 3px solid #2E2E2E;
+    padding: 5px;
+    background-image: url(https://img.freepik.com/free-photo/view-wedding-archway-front_8353-9891.jpg?w=740&t=st=1698309598~exp=1698310198~hmac=49a58170997b93ba1cadf137ace9c5260a2a290fdc3c4956351907154b890839);
+    box-shadow: 0px 0px 15px #434F5B;
+  }
+  header h1{
+    color: #212A3F;
+    font-size: 45px;
+  }
+  header p{
+    color: #434F5B;
+  }
+  #topnav{
+    font-family: 'Dancing Script', cursive;
+    background-color: #434F5B;
+    font-size: 30px;
+    text-transform: lowercase;
+    /* width: 415px; */
+    margin: 0 auto;
+  }
+  #topnav ul{
+    padding: 20px 15px;
+    margin: 0px;
+    text-align: center;
+  }
+  #topnav ul li{
+    list-style-type: none;
+    display: inline;
+  }
+  #topnav ul li a{
+    color: #F2F2F2;
+    text-decoration: none;
+    margin: 0px 5px;
+    padding: 5px;
+  }
+  #topnav ul li a:hover{
+    border-bottom: 3px solid #F2F2F2;
+    transition: 50ms linear 0s;
+    -moz-transition: 50ms linear 0s;
+    -webkit-transition: 50ms linear 0s;
+  }
+  body{
+    background-color: #F2F2F2;
+  }
+  #About{
+    text-align: justify;
+    font-size: 20px;
+  }
+  #content{
+    font-family: 'Lora', serif;
+  }
+  #About h1, h2, h3, h4, h5, h6{
+    color: #212A3F;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+  }
+  #About p{
+    color: #2E2E2E;
+    padding: 40px;
+    margin: 0px auto;
+  }
+  #About img{
+       float: left;
+       padding: 40px;
+  }
+ #img2{
+  float: right;
+  padding-right: 50px;
+ }
+ 
+  #Contact{
+    padding: 10px;
+    background-color: #8f8f8f3b;
+  }
+  footer{
+    border-top: 10px solid #434F5B;
+    height: 10px;
+  }
+  footer p{
+    float: right;
+    font-family: 'Lora', serif;
+  }
+  .footernav{
+    height: 10px;
+
+    float: left;
+  }
+  .footernav ul li{
+    list-style-type: none;
+    display: inline;
+  }
+  .footernav ul li a:link, .footernav ul li a:visited{
+    color: #212A3F;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-family: 'Dancing Script', cursive;
+  }
+  .footernav ul li a:hover{
+    color: #8F8F8F;
+  }
+  
