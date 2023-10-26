@@ -1,6 +1,6 @@
 img{
-    width: 420px;
-    height: 340px;
+    width: 320px;
+    height: 240px;
   }
   
   header{
@@ -73,7 +73,6 @@ img{
   }
  #img2{
   float: right;
-  padding-right: 50px;
  }
  
   #Contact{
