@@ -1,7 +1,7 @@
-img{
+/* img{
     width: 320px;
     height: 240px;
-  }
+  } */
   
   header{
     font-family: 'Dancing Script', cursive;
@@ -53,6 +53,16 @@ img{
   #About{
     text-align: justify;
     font-size: 20px;
+    height: 500px;
+   
+  }
+  .Service{
+    /* padding: 100px; */
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/784/215/745/asad-atoll-beach-blue-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px;
   }
   #content{
     font-family: 'Lora', serif;
@@ -71,8 +81,16 @@ img{
        float: left;
        padding: 40px;
   }
+  .empty{
+    height: 400px;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/784/215/745/asad-atoll-beach-blue-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+  }
  #img2{
-  float: right;
+  /* float: right; */
  }
  
   #Contact{
