@@ -54,7 +54,9 @@
     text-align: justify;
     font-size: 20px;
     height: 500px;
-   
+  }
+  .AboutContent{
+    /* float: right; */
   }
   .Service{
     /* padding: 100px; */
@@ -87,12 +89,17 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
- #img2{
-  /* float: right; */
- }
- 
+p{
+  font-size: 30px;
+} 
+ul li{
+  font-size: 30px;
+
+}
   #Contact{
     padding: 10px;
     background-color: #8f8f8f3b;
@@ -123,4 +130,17 @@
   .footernav ul li a:hover{
     color: #8F8F8F;
   }
+  @media screen and (max-width: 600px){
+    #About p{
+    /* width: 350px; */
+     float: left;
+ }
+    #About img{
+    width: 360px;
+     /* float: left; */
+ }
+
+  }
+    
+  
   
